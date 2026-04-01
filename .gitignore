@@ -1,0 +1,25 @@
+# Python local files
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.venv/
+env/
+
+# Environment configurations
+.env
+
+# Git push guide
+git_push_guide.md
+
+# Databases
+*.db
+audit.db
+audit_log.db
+
+# Reports (ignore local JSON reports, keep the directory structure)
+reports/*.json
+!reports/.gitkeep
+
+# Temporary test outputs
+pytest_output*.txt
