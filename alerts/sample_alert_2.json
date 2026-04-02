@@ -1,0 +1,10 @@
+{
+  "id": "alert-002",
+  "timestamp": "2024-04-01T11:15:30Z",
+  "source": "Firewall",
+  "message": "Blocked connection from 203.0.113.195 to internal server",
+  "source_ip": "203.0.113.195",
+  "severity": "high",
+  "destination_ip": "192.168.1.100",
+  "port": 443
+}
